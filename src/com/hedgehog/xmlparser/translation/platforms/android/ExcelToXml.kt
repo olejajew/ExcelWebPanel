@@ -17,7 +17,12 @@ object ExcelToXml {
 
     fun convertToXml(file: File): File {
         clearDirectory()
-        File(RESULT_PATH).mkdirs()
+        val resultFolder = File(RESULT_PATH)
+        if (resultFolder.exists()) {
+            resultFolder.delete()
+        }
+        resultFolder.mkdirs()
+
         val wb = XSSFWorkbook(FileInputStream(file))
         val sheet = wb.getSheetAt(0)
 
