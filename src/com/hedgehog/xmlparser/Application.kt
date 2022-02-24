@@ -1,5 +1,6 @@
-package com.hdghg.com.hedgehog.xmlparser
+package com.hedgehog.xmlparser
 
+import com.hdghg.com.hedgehog.xmlparser.RoutingProvider
 import io.ktor.application.*
 import io.ktor.response.*
 import io.ktor.routing.*
