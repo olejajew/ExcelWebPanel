@@ -116,6 +116,11 @@ fun String.replacePlaceholder() = this
     .replace(" skip@/br.com ", "</br>", true)
     .replace(" skip@maintag.com ", "<![CDATA[", true)
     .replace(" skip@/maintag.com ", "]]>", true)
+    .replace("skip@maintag.com ", "<![CDATA[", true)
+    .replace("skip@/maintag.com ", "]]>", true)
+    .replace(" skip@maintag.com", "<![CDATA[", true)
+    .replace(" skip@/maintag.com", "]]>", true)
+
 
 fun String.setPlaceholders() = this
     .replace("\\'", "'", true)
@@ -181,6 +186,8 @@ fun String.setPlaceholders() = this
     .replace("</img>", " skip@/img.com ", true)
     .replace("<br>", " skip@br.com ", true)
     .replace("</br>", " skip@/br.com ", true)
+    .replace("<![CDATA["," skip@maintag.com ",  true)
+    .replace( "]]>", " skip@/maintag.com ", true)
 
 
 fun Element.isBanned(): Boolean {

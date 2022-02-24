@@ -82,8 +82,9 @@ object ExcelToXml {
             val value = if (key.contains("separator")) {
                 "======"
             } else {
-                value.replacePlaceholder()
+                value
             }
+            println(value)
             element.textContent = value
             root.appendChild(element)
         }
@@ -112,12 +113,15 @@ object ExcelToXml {
         File("$RESULT_PATH/result.zip").delete()
         ZipOutputStream(BufferedOutputStream(FileOutputStream("$RESULT_PATH/result.zip"))).use { out ->
             for (file in File(RESULT_PATH).listFiles().filter { !it.extension.contains("zip") }) {
+                println(file.readText())
+                file.writeText(file.readText().replacePlaceholder())
+                println(file.readText())
                 FileInputStream(file).use { fi ->
                     BufferedInputStream(fi).use { origin ->
                         val language = file.nameWithoutExtension.split("-")[1]
-                        val folderName = "values-$language"
+                        val folderName = "values-$language/"
                         val folder = ZipEntry(folderName)
-                        val entry = ZipEntry("$folderName/strings.xml")
+                        val entry = ZipEntry("${folderName}strings.xml")
                         out.putNextEntry(folder)
                         out.putNextEntry(entry)
                         origin.copyTo(out, 1024)

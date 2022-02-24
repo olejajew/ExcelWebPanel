@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="notifications_permissions_message">skip@maintag.comWe need access skip@b.com to view
-        your notificationsskip@/b.com, so you can choose which apps you don\'t want to get
-        notifications fromskip@/maintag.com
+    <string name="notifications_permissions_message"> skip@maintag.com We need access  skip@b.com  to view
+        your notifications skip@/b.com , so you can choose which apps you don't want to get
+        notifications from skip@/maintag.com 
     </string>
     <string name="apps_there_are_no_selected">No apps selected</string>
-    <string name="ultra_energy_saving_change_settings_for_decrease_brightness">skip@maintag.comAllow us
-        skip@b.comto change system settingsskip@/b.com, so we can reduce brightnessskip@/maintag.com
+    <string name="ultra_energy_saving_change_settings_for_decrease_brightness"> skip@maintag.com Allow us
+         skip@b.com to change system settings skip@/b.com , so we can reduce brightness skip@/maintag.com 
     </string>
-    <string name="optimization_permission">skip@maintag.comTo perform optimization, we need access to
-        skip@b.comthe last running applicationsskip@/b.com.skip@/maintag.com
+    <string name="optimization_permission"> skip@maintag.com To perform optimization, we need access to
+         skip@b.com the last running applications skip@/b.com . skip@/maintag.com 
     </string>
-    <string name="manage_notification_permission_message">skip@maintag.comWe need permission to skip@b.commanage
-        notificationsskip@/b.com, so you can enable or disable the "Do Not Disturb" modeskip@/maintag.com
+    <string name="manage_notification_permission_message"> skip@maintag.com We need permission to  skip@b.com manage
+        notifications skip@/b.com , so you can enable or disable the "Do Not Disturb" mode skip@/maintag.com 
     </string>
 
 </resources>

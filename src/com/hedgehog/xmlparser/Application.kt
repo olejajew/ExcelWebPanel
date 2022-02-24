@@ -1,6 +1,8 @@
 package com.hedgehog.xmlparser
 
 import com.hdghg.com.hedgehog.xmlparser.RoutingProvider
+import com.hedgehog.xmlparser.translation.platforms.android.ExcelToXml
+import com.hedgehog.xmlparser.translation.platforms.android.XmlToExcel
 import io.ktor.application.*
 import io.ktor.response.*
 import io.ktor.routing.*
@@ -9,11 +11,16 @@ import io.ktor.features.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 import com.hedgehog.xmlparser.web.webPage
+import java.io.File
 
 class Application {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
+
+//            val file = XmlToExcel.convertToExcel(File("./strings.xml"))
+//            val file = ExcelToXml.convertToXml(File("./file.xlsx"))
+//            println(file)
             RoutingProvider.init()
             val server = embeddedServer(Netty, port = System.getenv()?.get("PORT")?.toIntOrNull() ?: 19252) {
                 install(CORS) {
