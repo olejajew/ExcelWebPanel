@@ -1,4 +1,4 @@
-package com.hdghg.utils
+package com.hedgehog.xmlparser.utils
 
 import io.ktor.application.*
 import io.ktor.http.content.*

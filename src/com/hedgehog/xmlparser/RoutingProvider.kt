@@ -1,10 +1,10 @@
-package com.hdghg
+package com.hdghg.com.hedgehog.xmlparser
 
-import com.hdghg.translation.TranslationProvider
-import com.hdghg.translation.data.PlatformType
-import com.hdghg.translation.data.TaskType
-import com.hdghg.utils.FileProvider
-import com.hdghg.utils.badRequest
+import com.hedgehog.xmlparser.translation.TranslationProvider
+import com.hedgehog.xmlparser.translation.data.PlatformType
+import com.hedgehog.xmlparser.translation.data.TaskType
+import com.hedgehog.xmlparser.utils.FileProvider
+import com.hedgehog.xmlparser.utils.badRequest
 import io.ktor.application.*
 import io.ktor.response.*
 import java.io.File

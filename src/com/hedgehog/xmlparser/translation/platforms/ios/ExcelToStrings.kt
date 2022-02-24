@@ -1,6 +1,5 @@
-package com.hdghg.translation.platforms.ios
+package com.hedgehog.xmlparser.translation.platforms.ios
 
-import com.hdghg.translation.platforms.android.ExcelToXml
 import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.xssf.usermodel.XSSFRow
 import org.apache.poi.xssf.usermodel.XSSFWorkbook

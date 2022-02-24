@@ -1,7 +1,7 @@
-package com.hdghg.translation.platforms.android
+package com.hedgehog.xmlparser.translation.platforms.android
 
-import com.hdghg.utils.isBanned
-import com.hdghg.utils.setPlaceholders
+import com.hedgehog.xmlparser.utils.isBanned
+import com.hedgehog.xmlparser.utils.setPlaceholders
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 import org.w3c.dom.Document
 import org.w3c.dom.Element

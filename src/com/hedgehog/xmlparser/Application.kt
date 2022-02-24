@@ -1,4 +1,4 @@
-package com.hdghg
+package com.hdghg.com.hedgehog.xmlparser
 
 import io.ktor.application.*
 import io.ktor.response.*
@@ -7,7 +7,7 @@ import io.ktor.http.*
 import io.ktor.features.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import web.webPage
+import com.hedgehog.xmlparser.web.webPage
 
 class Application {
     companion object {

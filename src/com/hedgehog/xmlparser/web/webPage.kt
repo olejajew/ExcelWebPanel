@@ -1,4 +1,4 @@
-package web
+package com.hedgehog.xmlparser.web
 
 import io.ktor.http.content.*
 import io.ktor.routing.*

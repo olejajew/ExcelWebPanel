@@ -1,4 +1,4 @@
-package com.hdghg.translation.data
+package com.hedgehog.xmlparser.translation.data
 
 enum class TaskType(val id: Int) {
     stringsToExcel(0),

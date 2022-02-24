@@ -1,4 +1,4 @@
-package com.hdghg.translation.platforms.ios
+package com.hedgehog.xmlparser.translation.platforms.ios
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 import java.io.File

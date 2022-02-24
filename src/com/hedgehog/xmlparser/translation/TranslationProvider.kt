@@ -1,9 +1,9 @@
-package com.hdghg.translation
+package com.hedgehog.xmlparser.translation
 
-import com.hdghg.translation.platforms.android.ExcelToXml
-import com.hdghg.translation.platforms.android.XmlToExcel
-import com.hdghg.translation.platforms.ios.ExcelToStrings
-import com.hdghg.translation.platforms.ios.StringsToExcel
+import com.hedgehog.xmlparser.translation.platforms.android.ExcelToXml
+import com.hedgehog.xmlparser.translation.platforms.android.XmlToExcel
+import com.hedgehog.xmlparser.translation.platforms.ios.ExcelToStrings
+import com.hedgehog.xmlparser.translation.platforms.ios.StringsToExcel
 import java.io.File
 
 object TranslationProvider {

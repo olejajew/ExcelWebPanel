@@ -1,4 +1,4 @@
-package com.hdghg.translation.data
+package com.hedgehog.xmlparser.translation.data
 
 enum class PlatformType(val id: Int) {
     android(0),

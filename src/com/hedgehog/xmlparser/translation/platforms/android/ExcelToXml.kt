@@ -1,6 +1,6 @@
-package com.hdghg.translation.platforms.android
+package com.hedgehog.xmlparser.translation.platforms.android
 
-import com.hdghg.utils.replacePlaceholder
+import com.hedgehog.xmlparser.utils.replacePlaceholder
 import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.xssf.usermodel.XSSFRow
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
@@ -68,7 +68,7 @@ object ExcelToXml {
             .newDocumentBuilder()
             .newDocument()
 
-        val root = document.createElement("resources")
+        val root = document.createElement("com/hedgehog/xmlparser/resourceshog/xmlparser/resources")
         document.appendChild(root)
 
         data.forEach { (key, value) ->
