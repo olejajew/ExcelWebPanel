@@ -85,9 +85,7 @@ object ExcelToXml {
 
         val transformer = TransformerFactory.newInstance().newTransformer()
         val source = DOMSource(document)
-        val resultFolder = File("$RESULT_PATH/values-$language")
-        resultFolder.mkdirs()
-        val result = StreamResult("$RESULT_PATH/values-$language/strings.xml")
+        val result = StreamResult("$RESULT_PATH/strings-$language.xml")
         transformer.transform(source, result)
     }
 
@@ -111,7 +109,11 @@ object ExcelToXml {
             for (file in File(RESULT_PATH).listFiles().filter { !it.extension.contains("zip") }) {
                 FileInputStream(file).use { fi ->
                     BufferedInputStream(fi).use { origin ->
-                        val entry = ZipEntry(file.name)
+                        val language = file.nameWithoutExtension.split("-")[1]
+                        val folderName = "values-$language"
+                        val folder = ZipEntry(folderName)
+                        val entry = ZipEntry("$folderName/strings.xml")
+                        out.putNextEntry(folder)
                         out.putNextEntry(entry)
                         origin.copyTo(out, 1024)
                     }
