@@ -68,7 +68,7 @@ object ExcelToXml {
             .newDocumentBuilder()
             .newDocument()
 
-        val root = document.createElement("com/hedgehog/xmlparser/resourceshog/xmlparser/resources")
+        val root = document.createElement("resources")
         document.appendChild(root)
 
         data.forEach { (key, value) ->

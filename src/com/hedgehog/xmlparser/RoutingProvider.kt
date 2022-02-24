@@ -54,7 +54,6 @@ object RoutingProvider {
                     TaskType.excelToStrings -> TranslationProvider.iosExcelToStrings(receivedFile)
                 }
             }
-
             call.respondFile(file)
         } catch (e: Exception) {
             e.printStackTrace()
