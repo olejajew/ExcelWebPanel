@@ -40,6 +40,8 @@ suspend fun InputStream.copyToSuspend(
 }
 
 fun String.replacePlaceholder() = this
+    .replace("&lt;", "<", true)
+    .replace("&gt;", ">", true)
     .replace("»", "\"")
     .replace("«", "\"")
     .replace("„", "\"")
@@ -115,6 +117,8 @@ fun String.replacePlaceholder() = this
     .replace("skip@/maintag.com", "]]>", true)
 
 fun String.setPlaceholders() = this
+    .replace("&lt;", "<", true)
+    .replace("&gt;", ">", true)
     .replace("\\n", "skip@newrow.com", true)
     .replace("%s", "skip@string.com", true)
     .replace("%d", "skip@number.com", true)
