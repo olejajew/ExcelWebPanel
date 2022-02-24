@@ -254,6 +254,10 @@ fun String.replacePlaceholder() = this
 
 fun String.setPlaceholders() = this
     .replace("\\'", "'", true)
+    .replace("\\n", " skip@newrow.com ", true)
+    .replace("%s", "skip@string.com", true)
+    .replace("%s", " skip@string.com ", true)
+    .replace("%d", " skip@number.com ", true)
     .replace("<p>", " skip@p.com ", true)
     .replace("</p>", " skip@/p.com ", true)
     .replace("<ul>", " skip@ul.com ", true)
