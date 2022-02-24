@@ -56,7 +56,6 @@ object ExcelToXml {
         }
 
         for (i in 0 until languages.size) {
-            println("HERE!!!")
             saveToXml(languages[i], locales[i])
         }
 

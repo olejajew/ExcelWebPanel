@@ -9,11 +9,12 @@ import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 import web.webPage
 
-class Application{
-    companion object{
+class Application {
+    companion object {
         @JvmStatic
-        fun main(args: Array<String>){
-            val server = embeddedServer(Netty, port = 19252){
+        fun main(args: Array<String>) {
+            RoutingProvider.init()
+            val server = embeddedServer(Netty, port = System.getenv()?.get("PORT")?.toIntOrNull() ?: 19252) {
                 install(CORS) {
                     method(HttpMethod.Get)
                     method(HttpMethod.Delete)
@@ -22,11 +23,11 @@ class Application{
                 }
 
                 routing {
-                    route("translation"){
-                        post("file"){
+                    route("translation") {
+                        post("file") {
                             RoutingProvider.parseFile(call)
                         }
-                        post("test"){
+                        post("test") {
                             call.respond("Ok")
                         }
                     }
