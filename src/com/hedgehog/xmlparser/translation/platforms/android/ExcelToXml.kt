@@ -85,6 +85,8 @@ object ExcelToXml {
 
         val transformer = TransformerFactory.newInstance().newTransformer()
         val source = DOMSource(document)
+        val resultFolder = File("$RESULT_PATH/values-$language")
+        resultFolder.mkdirs()
         val result = StreamResult("$RESULT_PATH/values-$language/strings.xml")
         transformer.transform(source, result)
     }

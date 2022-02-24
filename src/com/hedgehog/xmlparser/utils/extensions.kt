@@ -11,7 +11,7 @@ import org.w3c.dom.Element
 import java.io.InputStream
 import java.io.OutputStream
 
-suspend fun ApplicationCall.badRequest(){
+suspend fun ApplicationCall.badRequest() {
     respond(HttpStatusCode.BadRequest)
 }
 
@@ -40,6 +40,7 @@ suspend fun InputStream.copyToSuspend(
 }
 
 fun String.replacePlaceholder() = this
+    .replace("'", "\\'", true)
     .replace("&lt;", "<", true)
     .replace("&gt;", ">", true)
     .replace("»", "\"")
@@ -117,6 +118,7 @@ fun String.replacePlaceholder() = this
     .replace(" skip@/maintag.com ", "]]>", true)
 
 fun String.setPlaceholders() = this
+    .replace("\\'", "'", true)
     .replace("<p>", " skip@p.com ", true)
     .replace("</p>", " skip@/p.com ", true)
     .replace("<ul>", " skip@ul.com ", true)
