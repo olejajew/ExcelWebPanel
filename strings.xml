@@ -1,18 +1,225 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="notifications_permissions_message"> skip@maintag.com We need access  skip@b.com  to view
-        your notifications skip@/b.com , so you can choose which apps you don't want to get
-        notifications from skip@/maintag.com 
-    </string>
-    <string name="apps_there_are_no_selected">%s apps selected't</string>
-    <string name="ultra_energy_saving_change_settings_for_decrease_brightness"> skip@maintag.com Allow us
-         skip@b.com to change system settings skip@/b.com , so we can reduce brightness skip@/maintag.com 
-    </string>
-    <string name="optimization_permission"> skip@maintag.com To perform optimization, we need access to
-         skip@b.com the last running applications skip@/b.com . skip@/maintag.com 
-    </string>
-    <string name="manage_notification_permission_message"> skip@maintag.com We need permission to  skip@b.com manage
-        notifications skip@/b.com , so you can enable or disable the "Do Not Disturb" mode skip@/maintag.com 
-    </string>
+    <string name="privacy_policy_link">https://stackoverflow.com/questions/17960599/how-to-remove-padding-around-buttons-in-android</string>
+    <string name="support_email">support_email</string>
+    <string name="support_theme">support_theme</string>
+    <string name="support_chooser">Написать в техподдержку</string>
 
+    <string name="app_name">Супер Клинер</string>
+
+    <string name="base_ram_memory">Оперативная память</string>
+    <string name="base_memory_used">Использовано1002из1008</string>
+    <string name="base_internal_memory">Внутренняя память</string>
+    <string name="base_scanning_title">Сканирование</string>
+    <string name="base_done">Готово!</string>
+
+    <string name="splash_hello">Привет!</string>
+    <string name="splash_welcome">Добро пожаловать в</string>
+
+    <string name="onboarding_we_will_help_you">Мы поможем вам с первой очисткой</string>
+    <string name="onboarding_grant_access_description">Нам нужно разрешение, чтобы отчистить ненужные файлы.</string>
+    <string name="onboarding_grant_access_title">Предоставьте нам доступ</string>
+    <string name="onboarding_scan_title">Сканирование на наличие ненужных файлов</string>
+    <string name="onboarding_scan_description">Мы покажем, что можно безопасно удалить для освобождения места на диске.</string>
+    <string name="onboarding_continue">Продолжить</string>
+    <string name="onboarding_one_more_step">До очистки остался еще один шаг</string>
+    <string name="orboarding_scanned_done">Сканирование завершено</string>
+    <string name="onboarding_start_cleaning">Начать очистку</string>
+
+    <string name="junk_scanning_description">Ищем ненужные файлы, кэш и прочий мусор…</string>
+
+    <string name="junk_files_safe_delete">Безопасное удаление</string>
+    <string name="junk_files_clean_title">Очистка</string>
+    <string name="junk_files_cache">КЭШ</string>
+    <string name="junk_files_apks">Ненужные APK</string>
+    <string name="junk_files_empty_directories">Пустые папки</string>
+    <string name="junk_files_thumbnails">Миниатюры</string>
+    <string name="junk_files_group_description">1005/1007•10024/10027элементов</string>
+    <string name="junk_files_clean">Очистить</string>
+    <string name="junk_files_selected_files">Выбрано10014файлов (1009)</string>
+    <string name="junk_optimization_cache">КЭШ</string>
+    <string name="junk_optimization_empty_directories">Пустые папки</string>
+    <string name="junk_optimization_apks">Ненужные APK</string>
+    <string name="junk_optimization_app_data">Данные приложений</string>
+    <string name="junk_optimization_thumbnails">Миниатюры</string>
+    <string name="junk_optimization_free_up_space">Освобождаем место на диске…</string>
+    <string name="junk_optimization_freed_space">Освобождено10010внутренней памяти</string>
+    <string name="junk_optimization_cleaning_complete">Очистка завершена!</string>
+    <string name="junk_optimization_done">Готово</string>
+    <string name="junk_optimization_more_free_space">Теперь у вас на10010больше свободной памяти</string>
+
+    <string name="main_menu_drawer_rate_app">Оцените наше приложение</string>
+    <string name="main_menu_drawer_share">Поделиться</string>
+    <string name="main_menu_drawer_support">Написать в поддержку</string>
+    <string name="main_menu_drawer_privacy">Политика конфиденциальности</string>
+    <string name="main_menu_drawer_premium_subscription">Премиум подписка</string>
+    <string name="main_menu_optimization_item_junk">Очистка</string>
+    <string name="main_menu_optimization_item_charger">Питание</string>
+    <string name="main_menu_optimization_item_optimization">Оптимизация</string>
+    <string name="main_menu_optimization_item_notification">Уведомления</string>
+    <string name="main_menu_optimization_item_security">Безопасность</string>
+    <string name="main_menu_optimization_item_application">Приложения</string>
+    <string name="main_menu_optimization_item_in_progress">В разработке</string>
+
+    <string name="junk_info_title">Очистка</string>
+    <string name="junk_info_scan_result">Результаты сканирования</string>
+    <string name="junk_info_delete_safe">Удалять мусор абсолютно безопасно, мы все проверили</string>
+    <string name="junk_info_start_clean">Начать очистку</string>
+    <string name="junk_info_legend_format">(10013)</string>
+    <string name="junk_info_junk_files">Мусорные1001файлы</string>
+
+    <string name="cleaning_done_storage_space_freed">Успех! Теперь у вас на10010больше сводной памяти</string>
+    <string name="cleaning_done_ram_space_freed">Успех! Получилось освободить10010оперативной памяти</string>
+    <string name="cleaning_done_cpu_boosted">Успех! Получилось охладить ЦП и ускорить работу телефона</string>
+    <string name="cleaning_done_go_to_main">На главный экран</string>
+
+    <string name="junk_optimization_description">Проверяем какие приложения используют ОЗУ, нагревают ЦП и увеличивают расход заряда батареи…</string>
+
+    <string name="optimization_info_used">Занято</string>
+    <string name="optimization_info_free">Свободно</string>
+    <string name="optimization_info_total">Общий объем оперативной памяти</string>
+    <string name="optimization_info_boost">Ускорить</string>
+    <string name="optimization_info_bottom_sheet_description">Приложения, которые прямо сейчас занимают ОЗУ, нагревают ЦП и увеличивают расход заряда батареи</string>
+
+    <string name="optimization_cleaning_cleaning_ram">Очищаем ОЗУ…</string>
+    <string name="optimization_cleaning_freed_space">Освобождено10010оперативной памяти</string>
+
+    <string name="tutorial_okay">Хорошо!</string>
+    <string name="tutorial_optimization_title">Оптимизация</string>
+    <string name="tutorial_optimization_description">Тут мы поможем вам освободить оперативную память.10011001Это ускорит работу вашего телефона, охладит центральный процессор и сэкономит вам заряд батареи.10011001Очень полезная функция :)</string>
+    <string name="tutorial_junk_title">Очистка</string>
+    <string name="tutorial_junk_description">Эта функция очистит телефон от КЭШа, пустых папок, файлов, которые остаются после удаления и установки приложений и других мусорных файлов.10011001Это позволит освободить место в памяти вашего телефона для чего-то более важного:)</string>
+    <string name="optimization_title">Оптимизация</string>
+
+    <string name="apps_scanning_message">Сортируем все ваши приложения, чтобы вам было удобно их просматривать и удалять...</string>
+    <string name="all_apps">Все1001приложения</string>
+    <string name="installed_apps">Установленные приложения</string>
+    <string name="system_apps">Системные приложения</string>
+    <string name="delete">Удалить</string>
+    <string name="apps_delete_dialog_title">Вы уверены, что хотите удалить выбранные приложения?</string>
+    <string name="apps_deleting_message">Удаляем приложения...</string>
+    <string name="scanning">Сканирование</string>
+    <string name="apps">Приложения</string>
+    <string name="apps_chosen_count">Выбран1002файл(ов) (1009)</string>
+    <string name="apps_search_among_apps">Поиск среди10010приложений</string>
+    <string name="apps_deleting_done_message">Успех!1001 Мы удалили10014приложений и освободили1008</string>
+    <string name="sort_by_size">Сортировать по размеру</string>
+    <string name="sort_by_name">Сортировать по имени</string>
+    <string name="safety_scanning_message">Сканируем доступы приложений к вашим данным, ищем угрозы, оцениваем безопасность...</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="safety_app_has_access">У этого приложения есть доступы:</string>
+    <string name="safety">Безопасность</string>
+    <string name="permissions">Разрешения</string>
+    <string name="battery_scanning_message">Ищем оптимальные способы экономии энергии...</string>
+    <string name="battery_saving_energy_mode">Режимы экономии энергии</string>
+    <string name="energy_saving">Экономия энергии</string>
+    <string name="battery_energy_saving_description">Ограничивать фоновую активность и отключать синхронизацию.</string>
+    <string name="ultra_energy_saving">Ультра-экономия энергии</string>
+    <string name="ultra_energy_saving_description">Ограничивать большинство энергоемких функций, чтобы сделать основные функции] (например звонки, SMS и избранные приложения доступными как мложно дольше.</string>
+    <string name="additional_settings">Дополнительные настройки</string>
+    <string name="discharge_notifications">Уведомлять о разряде</string>
+    <string name="discharge_notifications_description">Получать уведомления о быстром разряде батареи</string>
+    <string name="battery_power">Питание</string>
+    <string name="settings_chosen_app_message">Выбранные приложения не будут закрыты или заморожены в фоновой активности во время оптимизации, а также будут работать без ограничений в режиме экономии и ультра-экономии энергии</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_chosen_apps">Избранные приложения</string>
+    <string name="notification_frequency">Частота уведомлений</string>
+    <string name="notifications">Уведомления</string>
+    <string name="notifications_missed">Пропущенные уведомления</string>
+    <string name="do_not_disturb">Не беспокоить</string>
+    <string name="support_description_header">Опишите вашу проблему, мы будем рады помочь</string>
+    <string name="support_user_email">Оставьте вашу электронную почту, чтобы мы могли вам ответить</string>
+    <string name="safety_hint">Чтобы проверить какие доступы есть у приложения, просто нажмите на него10011001 Запретите доступы тем приложениям, которым вы не доверяете.10011001 Будьте в безопасности :)</string>
+    <string name="notification_hint">Чтобы не получать уведомления от приложения просто нажмите на переключатель1001Уведомления от выбранных приложений не будут вас беспокоить, а просмотреть их вы всегда можете во вкладке “Пропущенные уведомления”</string>
+    <string name="app_search">Поиск приложений</string>
+    <string name="optimization_outcome_message">Успех!1001Получилось освободить10010оперативной памяти</string>
+    <string name="send">Отправить</string>
+    <string name="support">Поддержка</string>
+    <string name="share_message">Супер-бомбезное приложение! Смотри здесь: ...</string>
+    <string name="share">Поделиться</string>
+    <string name="allow">Разрешить</string>
+    <string name="pass">Пропустить</string>
+    <string name="permission_required">Нам требуется разрешение</string>
+    <string name="manage_notification_permission_message">10096Нам нужно разрешение на 10046управление уведомлениями10047, чтобы включить или выключить режим "не беспокоить"10097</string>
+    <string name="mn">Пн</string>
+    <string name="tu">Вт</string>
+    <string name="wd">Ср</string>
+    <string name="th">Чт</string>
+    <string name="fr">Пт</string>
+    <string name="st">Cб</string>
+    <string name="sn">Вс</string>
+    <string name="minutes_ago">минут назад</string>
+    <string name="hours_ago">часов назад</string>
+    <string name="sort_by_count">Сортировать по количеству</string>
+    <string name="passed_notifications">10011пропущенных уведомлений</string>
+    <string name="notifications_permissions_message">10096Нам нужен доступ к 10046просмотру ваших уведомлений10047, чтобы вы могли выбирать от каких приложений вы не хотите получать уведомления10097</string>
+    <string name="hours_short">ч</string>
+    <string name="minutes_short">мин</string>
+    <string name="battery_remaining_time_label">Оставшееся время |</string>
+    <string name="battery_percents_charged">10013%% заряжено</string>
+    <string name="app_notification_channel_desc">Канал для уведомлений приложения</string>
+    <string name="battery_fast_discharging_message">Мобильный телефон быстро разряжается! Закройте приложения, которые потребляют большое количество энергии аккумулятора.</string>
+    <string name="settings_remind_cleaning">Очистка не выполнялась уже более 24 часов!</string>
+    <string name="settings_remind_delete_apk">Не забудьте удалить APK файл после установки приложения!</string>
+    <string name="settings_remind_clean_remaining_files">Не забудьте удалить остаточные файлы!</string>
+    <string name="every_day">Каждый день</string>
+    <string name="every_3_days">Каждые 3 дня</string>
+    <string name="every_7_days">Каждые 7 дней</string>
+    <string name="never_remind">Никогда не напоминать</string>
+    <string name="settings_remind_enable_power_safety">У Вас осталось менее 20% заряда. Не забудьте включить режим энергосбережения!</string>
+    <string name="battery_disable_automatically">Отключать автоматически</string>
+    <string name="battery_disable_automatically_description">Автоматически отключать Экономию энергии, когда уровень заряда более 60%.</string>
+    <string name="battery_use_on_schedule">Использовать по расписанию</string>
+    <string name="battery_remind_disable_power_safety_mode">Уроваень заряда более 60%. Можно отключить режим экономии энергии</string>
+    <string name="battery_remind_disable_power_safety_mode_in_time">Пора выключить режим энергосбережения.</string>
+    <string name="battery_remind_enable_power_safety_mode_in_time">Пора включить режим энергосбережения.</string>
+    <string name="notification_clean_junk">Очистить мусор</string>
+    <string name="notification_speedup_working">Ускорить работу</string>
+    <string name="notification_safe_energy">Экономить энергию</string>
+    <string name="notification_setup_notifications">Настроить уведомления</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="decrease_brightness">Уменьшить яркость</string>
+    <string name="optimization_permission">10096Для проведения оптимизации нам нужен доступ к 10046последним запущенным приложениям1004710097</string>
+    <string name="notification_background_channel">Канал для главного уведомления</string>
+    <string name="notifications_enable_dnd">Включить режим “Не беспокоить”</string>
+    <string name="repeating">Повтор</string>
+    <string name="everyday">Ежедневно</string>
+    <string name="every">Каждый</string>
+    <string name="never">Никогда</string>
+    <string name="version">Версия10012</string>
+    <string name="disable_automatically">Отключать автоматически</string>
+    <string name="disable_automatically_description">Автоматически отключать Экономию энергии, когда уровень заряда более 60%.</string>
+    <string name="time">Время</string>
+    <string name="since">С</string>
+    <string name="before">До</string>
+    <string name="go_to_settings">Перейти в настройки</string>
+    <string name="dialog_power_safe_mode_title">Включите режим энергесбережения в настройках</string>
+    <string name="dialog_power_safe_mode_message">Для использования этой функции, вам необходимо включить “Режим энергосбережения” в настройках телефона</string>
+    <string name="power_safe_mode">Режим энергосбережения</string>
+    <string name="safety_app_high_risk">Это прилоджение имеет доступ к Вашим данным, что представляет ВЫСОКИЙ риск Вашей конфиденциальности.</string>
+    <string name="safety_app_low_risk">Это приложение не имеет доступа к Вашим данным, оно не представляет опасности.</string>
+    <string name="safety_app_has_not_access">У этого приложения нет доступов.</string>
+    <string name="cancel">Отмена</string>
+    <string name="notifications_dnd_schedule_exact_alarm_message">Для выполнения данной функции нам нужен доступ к созданию запланированных операций.</string>
+    <string name="notifications_in_sb">Уведомления в шторке</string>
+    <string name="apps_installing">Установка приложений</string>
+    <string name="apps_deleting">Удаление приложений</string>
+    <string name="battery">Батарея</string>
+    <string name="notification_settings">Настройки напоминаний</string>
+    <string name="setting_optimization_description">Напоминать, когда оперативная память заполнена</string>
+    <string name="settings_cleaning_description">Напомнить, если очистка не выполнялась 24 часа</string>
+    <string name="settings_app_install_description">Напомнить, что после установки можно удалить APK</string>
+    <string name="settings_app_uninstall_description">Напомнить, что после удаления можно удалить остаточные файлы</string>
+    <string name="settings_battery_description">Напомнить, что можно включить экономию энергии, когда остается менее 20% заряда</string>
+    <string name="energy_saving_title">Экономия энергии активирует следующие ограничения:</string>
+    <string name="energy_saving_1_adv">Заморозка фоновых прилоений</string>
+    <string name="energy_saving_2_adv">Очистка памяти при блокировке устройства</string>
+    <string name="energy_saving_3_adv">Отключить службы и функции с высоким энергопотреблением</string>
+    <string name="ultra_energy_saving_adv_title">Ультра-экономия энергии активирует слудующие ограничения:</string>
+    <string name="ultra_energy_saving_1_adv">Ограничить фоновую активность</string>
+    <string name="ultra_energy_saving_2_adv">"Ограничить потребление энергии (синхронизация, GPS, вибрация, Активный экран и т. д.) "</string>
+    <string name="ultra_energy_saving_3_adv">Разрешить нормальную работу избранных приложений (избранные приложения можно назначить в настройках)</string>
+    <string name="notifications_list_item_message" translatable="false">10013100110013</string>
+    <string name="apps_delete_dialog_message">Удаление нельзя будет отменить</string>
+    <string name="ultra_energy_saving_change_settings_for_decrease_brightness">10096Позвольте нам 10046изменять системные настройки10047, чтобы мы могли уменьшить яркость10097</string>
+    <string name="apps_there_are_no_selected">Не выбрано ни одного приложения</string>
 </resources>

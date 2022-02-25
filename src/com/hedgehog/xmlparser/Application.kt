@@ -18,9 +18,20 @@ class Application {
         @JvmStatic
         fun main(args: Array<String>) {
 
+//            val stringBuilder = StringBuilder()
+//            val file = File("./Placeholders.txt").readText()
+//            var index = 1
+//            file.lines().forEach {
+//                stringBuilder.append(it.replace("100", "100${index++}"))
+//                stringBuilder.append("\n")
+//            }
+//            val resultFile = File("./result.txt")
+//            resultFile.writeText(stringBuilder.toString())
+
 //            val file = XmlToExcel.convertToExcel(File("./strings.xml"))
 //            val file = ExcelToXml.convertToXml(File("./file.xlsx"))
 //            println(file)
+
             RoutingProvider.init()
             val server = embeddedServer(Netty, port = System.getenv()?.get("PORT")?.toIntOrNull() ?: 19252) {
                 install(CORS) {
