@@ -1,225 +1,272 @@
 <resources>
-    <string name="privacy_policy_link">https://stackoverflow.com/questions/17960599/how-to-remove-padding-around-buttons-in-android</string>
-    <string name="support_email">support_email</string>
-    <string name="support_theme">support_theme</string>
-    <string name="support_chooser">Написать в техподдержку</string>
+    <string name="app_name">PDF Reader &#038;#038;amp; Editor</string>
 
-    <string name="app_name">Супер Клинер</string>
+    <!--    <string name="fullScreenAds">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="app_ID" translatable="false">ca-app-pub-9387354664905418~2800263126</string>
+    <!--
+        <string name="app_open" translatable="false">&#038;#038;lt;!&#038;#038;ndash;ca-app-pub-3466985763744574/6752259383&#038;#038;ndash;&#038;#038;gt;ca-app-pub-3940256099942544/3419835294</string>
+    -->
+    <string name="app_metrica_key" translatable="false">8505c5b6-9106-4f05-b02b-1f57d360b0dc</string>
 
-    <string name="base_ram_memory">Оперативная память</string>
-    <string name="base_memory_used">Использовано1002из1008</string>
-    <string name="base_internal_memory">Внутренняя память</string>
-    <string name="base_scanning_title">Сканирование</string>
-    <string name="base_done">Готово!</string>
+    <string name="no_elements_can_be_optimized" translatable="false">No elements which can be optimized. Try other options</string>
+    <string name="no_images_were_extracted" translatable="false">No images were extracted</string>
+    <string name="error_protected" translatable="false">Error! Perhaps file is protected</string>
 
-    <string name="splash_hello">Привет!</string>
-    <string name="splash_welcome">Добро пожаловать в</string>
+    <string name="reading">Reading</string>
+    <string name="general">General</string>
+    <string name="language">Language</string>
 
-    <string name="onboarding_we_will_help_you">Мы поможем вам с первой очисткой</string>
-    <string name="onboarding_grant_access_description">Нам нужно разрешение, чтобы отчистить ненужные файлы.</string>
-    <string name="onboarding_grant_access_title">Предоставьте нам доступ</string>
-    <string name="onboarding_scan_title">Сканирование на наличие ненужных файлов</string>
-    <string name="onboarding_scan_description">Мы покажем, что можно безопасно удалить для освобождения места на диске.</string>
-    <string name="onboarding_continue">Продолжить</string>
-    <string name="onboarding_one_more_step">До очистки остался еще один шаг</string>
-    <string name="orboarding_scanned_done">Сканирование завершено</string>
-    <string name="onboarding_start_cleaning">Начать очистку</string>
+    <string name="unknown">Unknown</string>
+    <string name="share_this_file_via">Share this file via</string>
+    <string name="device_does_not_support_printing">Your device does not support printing</string>
+    <string name="cant_print_password_protected_pdf">Cannot print a password protected PDF file</string>
+    <string name="cannot_print_malformed_pdf">Cannot print a malformed PDF file</string>
+    <string name="cannot_print_unknown_error">Cannot print PDF file, Unknown error has occurred</string>
+    <string name="chooser_title">Share PDF Reader app via</string>
+    <string name="unable_to_find_play_store">Unable to find Play Store</string>
 
-    <string name="junk_scanning_description">Ищем ненужные файлы, кэш и прочий мусор…</string>
 
-    <string name="junk_files_safe_delete">Безопасное удаление</string>
-    <string name="junk_files_clean_title">Очистка</string>
-    <string name="junk_files_cache">КЭШ</string>
-    <string name="junk_files_apks">Ненужные APK</string>
-    <string name="junk_files_empty_directories">Пустые папки</string>
-    <string name="junk_files_thumbnails">Миниатюры</string>
-    <string name="junk_files_group_description">1005/1007•10024/10027элементов</string>
-    <string name="junk_files_clean">Очистить</string>
-    <string name="junk_files_selected_files">Выбрано10014файлов (1009)</string>
-    <string name="junk_optimization_cache">КЭШ</string>
-    <string name="junk_optimization_empty_directories">Пустые папки</string>
-    <string name="junk_optimization_apks">Ненужные APK</string>
-    <string name="junk_optimization_app_data">Данные приложений</string>
-    <string name="junk_optimization_thumbnails">Миниатюры</string>
-    <string name="junk_optimization_free_up_space">Освобождаем место на диске…</string>
-    <string name="junk_optimization_freed_space">Освобождено10010внутренней памяти</string>
-    <string name="junk_optimization_cleaning_complete">Очистка завершена!</string>
-    <string name="junk_optimization_done">Готово</string>
-    <string name="junk_optimization_more_free_space">Теперь у вас на10010больше свободной памяти</string>
+    <string name="failed_to_rename_file">Failed to rename file</string>
+    <string name="rename_file">Rename file</string>
+    <string name="permanently_delete_file">Permanently delete file?</string>
+    <string name="location">Location</string>
+    <string name="rename">Rename</string>
 
-    <string name="main_menu_drawer_rate_app">Оцените наше приложение</string>
-    <string name="main_menu_drawer_share">Поделиться</string>
-    <string name="main_menu_drawer_support">Написать в поддержку</string>
-    <string name="main_menu_drawer_privacy">Политика конфиденциальности</string>
-    <string name="main_menu_drawer_premium_subscription">Премиум подписка</string>
-    <string name="main_menu_optimization_item_junk">Очистка</string>
-    <string name="main_menu_optimization_item_charger">Питание</string>
-    <string name="main_menu_optimization_item_optimization">Оптимизация</string>
-    <string name="main_menu_optimization_item_notification">Уведомления</string>
-    <string name="main_menu_optimization_item_security">Безопасность</string>
-    <string name="main_menu_optimization_item_application">Приложения</string>
-    <string name="main_menu_optimization_item_in_progress">В разработке</string>
+    <string name="stamp">Stamp</string>
+    <string name="protect">Protect</string>
+    <string name="unprotect">Unprotect</string>
+    <string name="extract_text">Extract Text</string>
+    <string name="split">Split</string>
+    <string name="extract_images">Extract Images</string>
+    <string name="save_as_pictures">Save as Pictures</string>
 
-    <string name="junk_info_title">Очистка</string>
-    <string name="junk_info_scan_result">Результаты сканирования</string>
-    <string name="junk_info_delete_safe">Удалять мусор абсолютно безопасно, мы все проверили</string>
-    <string name="junk_info_start_clean">Начать очистку</string>
-    <string name="junk_info_legend_format">(10013)</string>
-    <string name="junk_info_junk_files">Мусорные1001файлы</string>
+    <string name="failed">Failed</string>
+    <string name="items">items</string>
+    <string name="select_all">Select all</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="to_add_stared_pdfs_click_star_icon_in_the_pdf_list">To add favourites PDFs click star icon in the PDF list</string>
+    <string name="no_stared_pdfs">No favourites PDFs</string>
+    <string name="delete">Delete</string>
 
-    <string name="cleaning_done_storage_space_freed">Успех! Теперь у вас на10010больше сводной памяти</string>
-    <string name="cleaning_done_ram_space_freed">Успех! Получилось освободить10010оперативной памяти</string>
-    <string name="cleaning_done_cpu_boosted">Успех! Получилось охладить ЦП и ускорить работу телефона</string>
-    <string name="cleaning_done_go_to_main">На главный экран</string>
+    <string name="all">All</string>
+    <string name="camera">Camera</string>
+    <string name="downloads">Downloads</string>
+    <string name="pictures">Pictures</string>
+    <string name="whatsapp_images">WhatsApp images</string>
+    <string name="select">Select</string>
+    <string name="select_file">Select a file</string>
 
-    <string name="junk_optimization_description">Проверяем какие приложения используют ОЗУ, нагревают ЦП и увеличивают расход заряда батареи…</string>
+    <string name="print">Print</string>
+    <string name="share_as_picture">Share as picture</string>
+    <string name="share">Share</string>
+    <string name="bookmarkData">Bookmark</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="table_of_contents">Table of contents</string>
+    <string name="add_bookmark">Add bookmark data</string>
+    <string name="enter_title">Enter title</string>
 
-    <string name="optimization_info_used">Занято</string>
-    <string name="optimization_info_free">Свободно</string>
-    <string name="optimization_info_total">Общий объем оперативной памяти</string>
-    <string name="optimization_info_boost">Ускорить</string>
-    <string name="optimization_info_bottom_sheet_description">Приложения, которые прямо сейчас занимают ОЗУ, нагревают ЦП и увеличивают расход заряда батареи</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="enter_page_number">Enter page number</string>
+    <string name="jump_to_page">Jump to page</string>
+    <string name="invalid_page_number">Invalid page number</string>
+    <string name="cannot_show_tools">Can\'t show tools</string>
 
-    <string name="optimization_cleaning_cleaning_ram">Очищаем ОЗУ…</string>
-    <string name="optimization_cleaning_freed_space">Освобождено10010оперативной памяти</string>
+    <string name="swipe_horizontal">Swipe horizontal</string>
+    <string name="swipe_vertical">Swipe vertical</string>
+    <string name="light_mode">Light mode</string>
+    <string name="night_mode">Night mode</string>
+    <string name="cant_share_file">Can\'t share file</string>
 
-    <string name="tutorial_okay">Хорошо!</string>
-    <string name="tutorial_optimization_title">Оптимизация</string>
-    <string name="tutorial_optimization_description">Тут мы поможем вам освободить оперативную память.10011001Это ускорит работу вашего телефона, охладит центральный процессор и сэкономит вам заряд батареи.10011001Очень полезная функция :)</string>
-    <string name="tutorial_junk_title">Очистка</string>
-    <string name="tutorial_junk_description">Эта функция очистит телефон от КЭШа, пустых папок, файлов, которые остаются после удаления и установки приложений и других мусорных файлов.10011001Это позволит освободить место в памяти вашего телефона для чего-то более важного:)</string>
-    <string name="optimization_title">Оптимизация</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password_protected">Password protected</string>
+    <string name="invalid_password">Invalid password</string>
 
-    <string name="apps_scanning_message">Сортируем все ваши приложения, чтобы вам было удобно их просматривать и удалять...</string>
-    <string name="all_apps">Все1001приложения</string>
-    <string name="installed_apps">Установленные приложения</string>
-    <string name="system_apps">Системные приложения</string>
-    <string name="delete">Удалить</string>
-    <string name="apps_delete_dialog_title">Вы уверены, что хотите удалить выбранные приложения?</string>
-    <string name="apps_deleting_message">Удаляем приложения...</string>
-    <string name="scanning">Сканирование</string>
-    <string name="apps">Приложения</string>
-    <string name="apps_chosen_count">Выбран1002файл(ов) (1009)</string>
-    <string name="apps_search_among_apps">Поиск среди10010приложений</string>
-    <string name="apps_deleting_done_message">Успех!1001 Мы удалили10014приложений и освободили1008</string>
-    <string name="sort_by_size">Сортировать по размеру</string>
-    <string name="sort_by_name">Сортировать по имени</string>
-    <string name="safety_scanning_message">Сканируем доступы приложений к вашим данным, ищем угрозы, оцениваем безопасность...</string>
-    <string name="open_settings">Открыть настройки</string>
-    <string name="safety_app_has_access">У этого приложения есть доступы:</string>
-    <string name="safety">Безопасность</string>
-    <string name="permissions">Разрешения</string>
-    <string name="battery_scanning_message">Ищем оптимальные способы экономии энергии...</string>
-    <string name="battery_saving_energy_mode">Режимы экономии энергии</string>
-    <string name="energy_saving">Экономия энергии</string>
-    <string name="battery_energy_saving_description">Ограничивать фоновую активность и отключать синхронизацию.</string>
-    <string name="ultra_energy_saving">Ультра-экономия энергии</string>
-    <string name="ultra_energy_saving_description">Ограничивать большинство энергоемких функций, чтобы сделать основные функции] (например звонки, SMS и избранные приложения доступными как мложно дольше.</string>
-    <string name="additional_settings">Дополнительные настройки</string>
-    <string name="discharge_notifications">Уведомлять о разряде</string>
-    <string name="discharge_notifications_description">Получать уведомления о быстром разряде батареи</string>
-    <string name="battery_power">Питание</string>
-    <string name="settings_chosen_app_message">Выбранные приложения не будут закрыты или заморожены в фоновой активности во время оптимизации, а также будут работать без ограничений в режиме экономии и ультра-экономии энергии</string>
-    <string name="settings">Настройки</string>
-    <string name="settings_chosen_apps">Избранные приложения</string>
-    <string name="notification_frequency">Частота уведомлений</string>
-    <string name="notifications">Уведомления</string>
-    <string name="notifications_missed">Пропущенные уведомления</string>
-    <string name="do_not_disturb">Не беспокоить</string>
-    <string name="support_description_header">Опишите вашу проблему, мы будем рады помочь</string>
-    <string name="support_user_email">Оставьте вашу электронную почту, чтобы мы могли вам ответить</string>
-    <string name="safety_hint">Чтобы проверить какие доступы есть у приложения, просто нажмите на него10011001 Запретите доступы тем приложениям, которым вы не доверяете.10011001 Будьте в безопасности :)</string>
-    <string name="notification_hint">Чтобы не получать уведомления от приложения просто нажмите на переключатель1001Уведомления от выбранных приложений не будут вас беспокоить, а просмотреть их вы всегда можете во вкладке “Пропущенные уведомления”</string>
-    <string name="app_search">Поиск приложений</string>
-    <string name="optimization_outcome_message">Успех!1001Получилось освободить10010оперативной памяти</string>
-    <string name="send">Отправить</string>
-    <string name="support">Поддержка</string>
-    <string name="share_message">Супер-бомбезное приложение! Смотри здесь: ...</string>
-    <string name="share">Поделиться</string>
-    <string name="allow">Разрешить</string>
-    <string name="pass">Пропустить</string>
-    <string name="permission_required">Нам требуется разрешение</string>
-    <string name="manage_notification_permission_message">10096Нам нужно разрешение на 10046управление уведомлениями10047, чтобы включить или выключить режим "не беспокоить"10097</string>
-    <string name="mn">Пн</string>
-    <string name="tu">Вт</string>
-    <string name="wd">Ср</string>
-    <string name="th">Чт</string>
-    <string name="fr">Пт</string>
-    <string name="st">Cб</string>
-    <string name="sn">Вс</string>
-    <string name="minutes_ago">минут назад</string>
-    <string name="hours_ago">часов назад</string>
-    <string name="sort_by_count">Сортировать по количеству</string>
-    <string name="passed_notifications">10011пропущенных уведомлений</string>
-    <string name="notifications_permissions_message">10096Нам нужен доступ к 10046просмотру ваших уведомлений10047, чтобы вы могли выбирать от каких приложений вы не хотите получать уведомления10097</string>
-    <string name="hours_short">ч</string>
-    <string name="minutes_short">мин</string>
-    <string name="battery_remaining_time_label">Оставшееся время |</string>
-    <string name="battery_percents_charged">10013%% заряжено</string>
-    <string name="app_notification_channel_desc">Канал для уведомлений приложения</string>
-    <string name="battery_fast_discharging_message">Мобильный телефон быстро разряжается! Закройте приложения, которые потребляют большое количество энергии аккумулятора.</string>
-    <string name="settings_remind_cleaning">Очистка не выполнялась уже более 24 часов!</string>
-    <string name="settings_remind_delete_apk">Не забудьте удалить APK файл после установки приложения!</string>
-    <string name="settings_remind_clean_remaining_files">Не забудьте удалить остаточные файлы!</string>
-    <string name="every_day">Каждый день</string>
-    <string name="every_3_days">Каждые 3 дня</string>
-    <string name="every_7_days">Каждые 7 дней</string>
-    <string name="never_remind">Никогда не напоминать</string>
-    <string name="settings_remind_enable_power_safety">У Вас осталось менее 20% заряда. Не забудьте включить режим энергосбережения!</string>
-    <string name="battery_disable_automatically">Отключать автоматически</string>
-    <string name="battery_disable_automatically_description">Автоматически отключать Экономию энергии, когда уровень заряда более 60%.</string>
-    <string name="battery_use_on_schedule">Использовать по расписанию</string>
-    <string name="battery_remind_disable_power_safety_mode">Уроваень заряда более 60%. Можно отключить режим экономии энергии</string>
-    <string name="battery_remind_disable_power_safety_mode_in_time">Пора выключить режим энергосбережения.</string>
-    <string name="battery_remind_enable_power_safety_mode_in_time">Пора включить режим энергосбережения.</string>
-    <string name="notification_clean_junk">Очистить мусор</string>
-    <string name="notification_speedup_working">Ускорить работу</string>
-    <string name="notification_safe_energy">Экономить энергию</string>
-    <string name="notification_setup_notifications">Настроить уведомления</string>
-    <string name="dark_theme">Тёмная тема</string>
-    <string name="decrease_brightness">Уменьшить яркость</string>
-    <string name="optimization_permission">10096Для проведения оптимизации нам нужен доступ к 10046последним запущенным приложениям1004710097</string>
-    <string name="notification_background_channel">Канал для главного уведомления</string>
-    <string name="notifications_enable_dnd">Включить режим “Не беспокоить”</string>
-    <string name="repeating">Повтор</string>
-    <string name="everyday">Ежедневно</string>
-    <string name="every">Каждый</string>
-    <string name="never">Никогда</string>
-    <string name="version">Версия10012</string>
-    <string name="disable_automatically">Отключать автоматически</string>
-    <string name="disable_automatically_description">Автоматически отключать Экономию энергии, когда уровень заряда более 60%.</string>
-    <string name="time">Время</string>
-    <string name="since">С</string>
-    <string name="before">До</string>
-    <string name="go_to_settings">Перейти в настройки</string>
-    <string name="dialog_power_safe_mode_title">Включите режим энергесбережения в настройках</string>
-    <string name="dialog_power_safe_mode_message">Для использования этой функции, вам необходимо включить “Режим энергосбережения” в настройках телефона</string>
-    <string name="power_safe_mode">Режим энергосбережения</string>
-    <string name="safety_app_high_risk">Это прилоджение имеет доступ к Вашим данным, что представляет ВЫСОКИЙ риск Вашей конфиденциальности.</string>
-    <string name="safety_app_low_risk">Это приложение не имеет доступа к Вашим данным, оно не представляет опасности.</string>
-    <string name="safety_app_has_not_access">У этого приложения нет доступов.</string>
-    <string name="cancel">Отмена</string>
-    <string name="notifications_dnd_schedule_exact_alarm_message">Для выполнения данной функции нам нужен доступ к созданию запланированных операций.</string>
-    <string name="notifications_in_sb">Уведомления в шторке</string>
-    <string name="apps_installing">Установка приложений</string>
-    <string name="apps_deleting">Удаление приложений</string>
-    <string name="battery">Батарея</string>
-    <string name="notification_settings">Настройки напоминаний</string>
-    <string name="setting_optimization_description">Напоминать, когда оперативная память заполнена</string>
-    <string name="settings_cleaning_description">Напомнить, если очистка не выполнялась 24 часа</string>
-    <string name="settings_app_install_description">Напомнить, что после установки можно удалить APK</string>
-    <string name="settings_app_uninstall_description">Напомнить, что после удаления можно удалить остаточные файлы</string>
-    <string name="settings_battery_description">Напомнить, что можно включить экономию энергии, когда остается менее 20% заряда</string>
-    <string name="energy_saving_title">Экономия энергии активирует следующие ограничения:</string>
-    <string name="energy_saving_1_adv">Заморозка фоновых прилоений</string>
-    <string name="energy_saving_2_adv">Очистка памяти при блокировке устройства</string>
-    <string name="energy_saving_3_adv">Отключить службы и функции с высоким энергопотреблением</string>
-    <string name="ultra_energy_saving_adv_title">Ультра-экономия энергии активирует слудующие ограничения:</string>
-    <string name="ultra_energy_saving_1_adv">Ограничить фоновую активность</string>
-    <string name="ultra_energy_saving_2_adv">"Ограничить потребление энергии (синхронизация, GPS, вибрация, Активный экран и т. д.) "</string>
-    <string name="ultra_energy_saving_3_adv">Разрешить нормальную работу избранных приложений (избранные приложения можно назначить в настройках)</string>
-    <string name="notifications_list_item_message" translatable="false">10013100110013</string>
-    <string name="apps_delete_dialog_message">Удаление нельзя будет отменить</string>
-    <string name="ultra_energy_saving_change_settings_for_decrease_brightness">10096Позвольте нам 10046изменять системные настройки10047, чтобы мы могли уменьшить яркость10097</string>
-    <string name="apps_there_are_no_selected">Не выбрано ни одного приложения</string>
+    <string name="extract">Extract</string>
+    <string name="cant_compress_low_memory">Can\'t compress. Low memory!</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="merge">Merge</string>
+    <string name="high">High</string>
+
+    <string name="invalid_value">Invalid value</string>
+    <string name="image_quality">Image quality</string>
+    <string name="images_to_pdf">Images to PDF</string>
+    <string name="at">At</string>
+    <string name="at_specified_page">At specified page</string>
+    <string name="at_specified_range">At specified range</string>
+    <string name="from">From</string>
+    <string name="all_pages">All pages</string>
+    <string name="split_pdf">Split PDF</string>
+    <string name="number_of_pages">Number of pages in this file</string>
+
+    <string name="compress">Compress</string>
+    <string name="compression_level">Compression Level</string>
+    <string name="organizing">Organizing…</string>
+
+    <string name="merging">Merging…</string>
+    <string name="merge_failed">Failed to merge. One or more files are corrupt or password protected</string>
+    <string name="splitting">Splitting…</string>
+    <string name="open_directory">Open directory</string>
+
+    <string name="hundred_percent">100%</string>
+    <string name="to">to</string>
+    <string name="reduced_from">Reduced from</string>
+    <string name="compressing">Compressing…</string>
+
+    <string name="drag_drop_to_organize_files">Drag and drop to organize files. Click on a file to delete</string>
+    <string name="organize_files">Organize Files</string>
+
+    <string name="add_file">Add file</string>
+    <string name="at_least_two_files">You need at least two files to merge.</string>
+    <string name="organize_pages">Organize Pages</string>
+    <string name="converting">Converting…</string>
+    <string name="drag_drop_to_organize">Drag and drop to organize pages. Click on a page to delete</string>
+
+    <string name="select_at_least_one_image">Please select at least one image</string>
+    <string name="invalid_file_name">Invalid file name</string>
+    <string name="enter_file_name">Enter file name</string>
+
+    <string name="remove">Remove</string>
+    <string name="selected">selected</string>
+    <string name="cancel">Cancel</string>
+    <string name="open_file">Open file</string>
+    <string name="extracting">Extracting…</string>
+    <string name="extraction_failed">Extraction failed</string>
+    <string name="done">Done!</string>
+    <string name="failed_low_memory">Failed! low memory</string>
+    <string name="browse_files">Browse files</string>
+    <string name="no_pdf_files_in_this_directory">No PDF files in this directory</string>
+
+    <string name="click_on_pages_you_want_to_extract">Click on a page to select pages you want to extract</string>
+    <string name="select_pages">Select pages</string>
+    <string name="saved_to">Saved to</string>
+    <string name="select_at_least_one_page">Please select at least one page</string>
+
+    <string name="no_proper_app_for_opening_text">You may not have a proper app for opening text files</string>
+
+    <string name="loading_wait">Loading Please wait…</string>
+    <string name="cant_load_metadata">Can\'t load metadata</string>
+    <string name="file_protected">File protected</string>
+    <string name="file_protected_unprotect">The file is protected or has too small size</string>
+
+    <string name="edit_metadata">Edit metadata</string>
+    <string name="edit" translatable="false">Edit</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="creator">Creator</string>
+    <string name="producer">Producer</string>
+    <string name="subject">Subject</string>
+    <string name="keywords">Keywords</string>
+    <string name="created_date">Created date</string>
+    <string name="modified_date">Modified date</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="saving_wait">Saving Please wait…</string>
+
+
+    <string name="search">Search</string>
+    <string name="list_view">List view</string>
+    <string name="grid_view">Grid view</string>
+    <string name="_2_columns">2 columns</string>
+    <string name="_3_columns">3 columns</string>
+    <string name="_4_columns">4 columns</string>
+    <string name="_5_columns">5 columns</string>
+    <string name="_6_columns">6 columns</string>
+    <string name="sort">Sort</string>
+    <string name="by_name">By name</string>
+    <string name="by_size">By size</string>
+    <string name="by_date_modified">By date modified</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="clear_recent">Clear recent</string>
+    <string name="recent_cleared">Recent cleared.</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="all_pdfs_from_your_device_will_appear_here">PDFs from your device will appear here</string>
+    <string name="tap_and_hold_on_a_pdf_for_more_options">Tap and hold on a PDF for more options</string>
+    <string name="ok">OK</string>
+
+    <string name="recent_pdfs_will_appear_here">Recent PDFs will appear here</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+
+    <string name="all_documents">All documents</string>
+    <string name="stared">Favourites</string>
+    <string name="pdf_tools">PDF Reader</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="download_more_apps">Download more apps</string>
+    <string name="settings">Settings</string>
+    <string name="pro_version">PRO Version</string>
+
+    <string name="exit_app_has_no_permission">This app can\'t run because it does not have the read and write permissions. The app will now exit.</string>
+
+
+    <string name="contents">Contents</string>
+    <string name="pdf_file_has_no_contents">PDF file has no contents</string>
+    <string name="page">Page</string>
+    <string name="no_bookmarks">PDF file has no bookmarks</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="documents">Documents</string>
+
+
+    <!--Check this-->
+    <string name="version">Version</string>
+    <string name="about">About</string>
+    <string name="privacy_policy_link">10068Privacy Policy10069</string>
+    <string name="developed_by">Developed by PDF Reader</string>
+
+
+    <string name="premium_feature">Premium Feature</string>
+    <string name="get_pro_version_to_use_all_features">Get pro version to access all features</string>
+    <string name="access_all_premium_features">Access all premium features</string>
+    <string name="no_ads">No Ads</string>
+    <string name="get_pro_version">Get PRO version</string>
+
+    <string name="rate_us_details">If you like this app, Please take few seconds to rate 5 stars on Google Play. It helps me a lot.</string>
+    <string name="rate">Rate</string>
+    <string name="not_interested">Not interested</string>
+    <string name="later">Later</string>
+    <string name="no_files">No files</string>
+    <string name="no_images">No images</string>
+    <string name="close_menu">Close menu</string>
+
+    <string name="too_short_file">Too short name files. At least 3 symbol needed</string>
+    <string name="no_text_was_extracted">No text was extracted</string>
+    <string name="no_image_was_extracted">No images were extracted</string>
+    <string name="full_version">Полная версия</string>
+    <string name="full_version_description">Обновитесь до Pro версии, чтобы поддержать приложение и мы добавим полезные функции</string>
+    <string name="without_ads">Без рекламы</string>
+    <string name="without_ads_description">Реклама больше не будет мешать вам работать с документами</string>
+    <string name="paywall_button_text">Полная версия за 1005</string>
+
+
+
+    <string name="subscribe_monthly">Subscribe weekly</string>
+    <string name="s_monthly">10013/week</string>
+    <string name="_7_days_free_trial">START 7 DAYS FREE TRIAL</string>
+    <string name="continue_with_free_trial">Continue with free trial</string>
+    <string name="priority_user_support">Priority user support</string>
+    <string name="support">Priority support</string>
+    <string name="continuous_improvement">Continuous improvement</string>
+    <string name="early_access_to_all_new_features_and_improvements">Early access to all new features and improvements</string>
+    <string name="reading_pdf_files_without_advertising">Reading PDF files without advertising</string>
+    <string name="without_advertising">Without advertising</string>
+    <string name="hurry_up_last_chance">Try Premium Version for Free!</string>
+    <string name="stay_awake">Stay awake</string>
+    <string name="pick_up_where_you_left_off">Pick up where you left off</string>
+    <string name="automatically_hide_all_controls">Automatically hide all controls in PDF view</string>
+    <string name="remember_last_Page">Remember last page</string>
+    <string name="prevent_screen_turn_off">Prevent screen turn off while reading</string>
+    <string name="auto_full_screen">Auto full screen</string>
+    <string name="latest_features">All latest features</string>
+    <string name="trial_des">After the end of the free trial, 10013 per week</string>
+    <string name="paywall_des">The best app to view, scan and edit any text or image documents!</string>
+    <string name="continue_with_ads">10068Continue with ads10069</string>
+    <string name="restore_purchase">10098RESTORE PURCHASE10067</string>
+
+    <string name="access_to_all_app">Access to all app features without ads</string>
+    <string name="early_access_to_all_app">Early access to all app updates</string>
+    <string name="cancel_at_anytime">Сancel at anytime</string>
 </resources>

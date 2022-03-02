@@ -49,6 +49,7 @@ fun String.replacePlaceholder() = this
     .replace("“", "\"")
     .replace("「", "\"")
     .replace("」", "\"")
+    .replace("10098", "<a href=''>", true)
     .replace("10097", "]]>", true)
     .replace("10096", "<![CDATA[", true)
     .replace("10095", "</br>", true)
@@ -148,6 +149,7 @@ fun String.replacePlaceholder() = this
     .replace("1001", "\\n", true)
 
 fun String.setPlaceholders() = this
+    .replace("<a href=''>", "10098", true)
     .replace("]]>", "10097", true)
     .replace("<![CDATA[", "10096", true)
     .replace("</br>", "10095", true)
