@@ -128,7 +128,7 @@ object ExcelToXml {
         val fileName = if (data.isNotEmpty()) {
             "strings"
         } else {
-            "array"
+            "arrays"
         }
 
         val root = document.createElement("resources")
