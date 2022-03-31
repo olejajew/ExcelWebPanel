@@ -1,22 +1,31 @@
 package com.hedgehog.xmlparser
 
 import com.hdghg.com.hedgehog.xmlparser.RoutingProvider
+import com.hedgehog.xmlparser.test.TestFirst
+import com.hedgehog.xmlparser.test.TestSecond
+import com.hedgehog.xmlparser.test.TestThird
 import com.hedgehog.xmlparser.translation.platforms.android.ExcelToXml
 import com.hedgehog.xmlparser.translation.platforms.android.XmlToExcel
+import com.hedgehog.xmlparser.web.webPage
 import io.ktor.application.*
+import io.ktor.features.*
+import io.ktor.http.*
 import io.ktor.response.*
 import io.ktor.routing.*
-import io.ktor.http.*
-import io.ktor.features.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import com.hedgehog.xmlparser.web.webPage
 import java.io.File
 
 class Application {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
+
+//            val file = File("./xmlStrings.xlsx")
+//            ExcelToXml.convertToXml(file)
+
+//            val file = File("./arrays.xml")
+//            XmlToExcel.convertToExcel(file)
 
 //            val stringBuilder = StringBuilder()
 //            val file = File("./Placeholders.txt").readText()

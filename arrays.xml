@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test">Test</string>
+    <array name="optimization">
+        <item>Deleting background processes..</item>
+        <item>Clearing system paths..</item>
+        <item>Adjusting system keys..</item>
+        <item>Checking unused components..</item>
+        <item>Disconnecting from unnecessary GPS towers..</item>
+    </array>
+    
+    <array name="battery">
+        <item>Decrease in brightness..</item>
+        <item>Killing all background process..</item>
+        <item>Closing applications..</item>
+    </array>
+
+</resources>

@@ -23,23 +23,35 @@ object XmlToExcel {
     }
 
     fun convertToExcel(file: File): File {
+        file.writeText(file.readText().setPlaceholders())
         val map = parseXmlFile(file)
-        saveToExcel(map)
+        val arrays = parseXmlFileArrays(file)
+        saveToExcel(map, arrays)
         val resultFile = File(RESULT_FILE_PATH)
         resultFile.createNewFile()
         return resultFile
     }
 
-    private fun saveToExcel(map: HashMap<String, String>) {
+    private fun saveToExcel(strings: HashMap<String, String>, arrays: HashMap<String, List<String>>) {
         val wb = XSSFWorkbook()
         val sheet = wb.createSheet("Strings")
         sheet.createRow(0).createCell(1).setCellValue("en")
 
         var index = 1
-        map.forEach { t, u ->
+        strings.forEach { t, u ->
             val row = sheet.createRow(index++)
             row.createCell(0).setCellValue(t)
             row.createCell(1).setCellValue(u)
+        }
+        arrays.forEach { t, u ->
+            var indexArray = 0
+            u.forEach {
+                if (it.trim().isNotEmpty()) {
+                    val row = sheet.createRow(index++)
+                    row.createCell(0).setCellValue("0_${t}_${indexArray++}")
+                    row.createCell(1).setCellValue(it)
+                }
+            }
         }
 
         val fileOut = FileOutputStream(RESULT_FILE_PATH)
@@ -49,7 +61,6 @@ object XmlToExcel {
 
     private fun parseXmlFile(file: File): HashMap<String, String> {
         val map = hashMapOf<String, String>()
-        file.writeText(file.readText().setPlaceholders())
         val document = getXmlDocument(file)
 
         val strings = document.getElementsByTagName("string")
@@ -60,6 +71,26 @@ object XmlToExcel {
                 map[element.getAttribute("name")] = element.getTextContent()
             }
         }
+
+        return map
+    }
+
+    private fun parseXmlFileArrays(file: File): HashMap<String, List<String>> {
+        val map = hashMapOf<String, List<String>>()
+        val document = getXmlDocument(file)
+
+        val arrays = document.getElementsByTagName("array")
+        for (i in 0 until arrays.length) {
+            val array = arrays.item(i) as Element
+            val arrayName = array.getAttribute("name")
+            val list = mutableListOf<String>()
+            for (i in 0 until array.childNodes.length) {
+                val item = array.childNodes.item(i).textContent
+                list.add(item)
+            }
+            map[arrayName] = list
+        }
+
         return map
     }
 
